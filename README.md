@@ -6,7 +6,7 @@
 
 ## Description
 
-_Ping-Pong is a website built with Javascript and jQuery and designed with Bootstrap. It has a form to receive a number from the user, and it will output a list of numbers up to and including the inputted number, with some minor adjustments based on whether the values are divisible by 3 and/or 5._
+_Ping-Pong is a website built with Javascript and jQuery and designed with Bootstrap. It has a form to receive a number from the user, and it will output a list of numbers up to and including the inputted number, with some minor adjustments based on whether the values are divisible by 3 and/or 5. To view the live site, go to: https://mlawson3691.github.io/ping-pong_
 
 ## Setup/Installation Requirements
 
