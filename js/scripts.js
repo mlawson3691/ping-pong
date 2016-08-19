@@ -27,6 +27,8 @@ $(function() {
     event.preventDefault();
     var numberInput = parseInt($("#numberInput").val());
     var result = count(numberInput);
+    $("#result").empty();
+    $("#numberInput").val("");
     for (var i = 0; i < result.length; i++) {
       $("#result").append(result[i]);
     }
