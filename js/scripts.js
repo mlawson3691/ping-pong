@@ -14,7 +14,7 @@ var count = function(number) {
     } else {
       value += i;
     }
-    numbers.push(value);
+    numbers.push("<li>" + value + "</li>");
     value = "";
   }
   return numbers;
@@ -27,6 +27,8 @@ $(function() {
     event.preventDefault();
     var numberInput = parseInt($("#numberInput").val());
     var result = count(numberInput);
-    $("#result").text(result);
+    for (var i = 0; i < result.length; i++) {
+      $("#result").append(result[i]);
+    }
   });
 });
