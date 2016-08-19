@@ -29,7 +29,7 @@ $(function() {
     $("#result").empty();
     $("#numberInput").val("");
     $(".alert").hide();
-    if (!isNaN(numberInput)) {
+    if (!isNaN(numberInput) && numberInput > 0) {
       var result = count(numberInput);
       for (var i = 0; i < result.length; i++) {
         $("#result").append(result[i]);
