@@ -1,25 +1,20 @@
-body {
-  background:
-}
-
 h1 {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 50px;
-  margin-bottom: 0;
+  margin: 0;
   background: url("../img/table.jpg") center center no-repeat;
   background-size: cover;
   color: white;
 }
 
-#sidebar {
+.row {
   background: #fa3838;
-  color: white;
 }
 
-#sidebarInner {
-  width: 200px;
-  margin: 0 auto;
+#main {
+  padding: 0 50px 200px 50px;
+  background: white;
 }
 
 #mainInner {
@@ -27,8 +22,18 @@ h1 {
   margin: 0 auto;
 }
 
-#main {
-  padding: 0 50px;
+ul {
+  margin-left: 100px;
+  padding-left: 0;
+}
+
+#sidebar {
+  color: white;
+}
+
+#sidebarInner {
+  width: 200px;
+  margin: 0 auto;
 }
 
 .alert {
@@ -46,6 +51,11 @@ a, a:visited, a:hover, a:focus {
 @media screen and (max-width: 991px) {
   #main {
     text-align: center;
+    padding-bottom: 20px;
+  }
+
+  ul {
+    margin-left: 0;
   }
 
   li {

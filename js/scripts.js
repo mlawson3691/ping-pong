@@ -1,4 +1,4 @@
-// ===== BACK END LOGIC ===== //
+// ===== BUSINESS LOGIC ===== //
 
 var count = function(number) {
   var numbers = [];
