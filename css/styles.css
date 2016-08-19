@@ -22,13 +22,18 @@ h1 {
   margin: 0 auto;
 }
 
+#mainInner {
+  width: 500px;
+  margin: 0 auto;
+}
+
 #main {
   padding: 0 50px;
 }
 
 .alert {
   display: none;
-  width: 480px;
+  width: 475px;
   margin-top: 10px;
 }
 
@@ -36,7 +41,14 @@ a, a:visited, a:hover, a:focus {
   color: white;
 }
 
-#clear {
-  clear: both;
-  width: 100%;
+/* ===== MOBILE LAYOUT ===== */
+
+@media screen and (max-width: 991px) {
+  #main {
+    text-align: center;
+  }
+
+  li {
+    list-style-type: none;
+  }
 }

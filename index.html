@@ -11,25 +11,27 @@
   <body>
     <h1>Ping - Pong</h1>
     <div class="row">
-      <div id="main" class="col-md-8 col-md-push-4">
-        <h3>Let's Play!</h3>
-        <p>Enter a number and click submit to see your results.</p>
-        <ol>
-          <li>Numbers divisible by 3 will show as "ping"</li>
-          <li>Numbers divisible by 5 will show as "pong"</li>
-          <li>Numbers divisible by 3 AND 5 will show as "ping-pong"</li>
-        </ol>
-        <form class="form-inline">
-          <div class="form-group">
-            <label for="numberInput">Enter a number greater than zero:</label>
-            <input id="numberInput" class="form-control" type="text">
-          </div>
-          <button id="submit" class="btn btn-primary" type="submit">Submit</button>
-          <div class="alert alert-danger"><strong>Error: </strong>Please enter a number greater than zero!</div>
-        </form>
-        <ul id="result"></ul>
+      <div id="main" class="col-md-8">
+        <div id="mainInner">
+          <h3>Let's Play!</h3>
+          <p>Enter a number and click submit to see your results.</p>
+          <ol>
+            <li>Numbers divisible by 3 will show as "ping"</li>
+            <li>Numbers divisible by 5 will show as "pong"</li>
+            <li>Numbers divisible by 3 AND 5 will show as "ping-pong"</li>
+          </ol>
+          <form class="form-inline">
+            <div class="form-group">
+              <label for="numberInput">Enter a number greater than zero:</label>
+              <input id="numberInput" class="form-control" type="text">
+            </div>
+            <button id="submit" class="btn btn-primary" type="submit">Submit</button>
+            <div class="alert alert-danger"><strong>Error: </strong>Please enter a number greater than zero!</div>
+          </form>
+          <ul id="result"></ul>
+        </div>
       </div>
-      <div id="sidebar" class="col-sm-12 col-xs-12 col-md-4 col-md-pull-8">
+      <div id="sidebar" class="col-sm-12 col-xs-12 col-md-4">
         <div id="sidebarInner">
           <h3>About Ping-Pong</h3>
           <br>
